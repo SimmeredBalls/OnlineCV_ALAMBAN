@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="css/normalize.css" media="screen">
     <link rel="stylesheet" href="css/resets.css" media="screen">
-    <link rel="stylesheet" href="css/styles2.css" media="screen">
+    <link rel="stylesheet" href="css/styles3.css" media="screen">
 
 	<title>JS_OnlineCV - Alamban</title>
 </head>
@@ -40,7 +40,14 @@
         </div>
         <div class="card" id="portfolio">
             <p class="card-header">Portfolio</p>
-            <ul id="my-courses" class="card-body"><p>Subjects Taken:</p></ul>
+            
+            <ul id="my-courses" class="card-body">
+                <div id="search-container">
+                    <p>Subjects Taken:</p>
+                    <input type="text" id="search-input" placeholder="Search...">
+                    <button id="search-button">Search</button>
+                </div>
+            </ul>
         </div>    
         <div class="card" id="contact">
             <p class="card-header">Contact</p>
@@ -48,7 +55,7 @@
         </div>
     </div>
 
-    <script>
+    <script src="script/script.js">
         const jsonURL = "https://raw.githubusercontent.com/SimmeredBalls/OnlineCV_ALAMBAN/refs/heads/main/script/courses.json";
 
         fetch(jsonURL)
