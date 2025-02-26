@@ -67,9 +67,24 @@
 
 #search-container {
     display: flex;
-    align-items: center;
+    margin: 10px;
+    width: fit-content;
+  }
+
+  #search-container p {
+    margin-right: 10px;
+  }
+
+  #search-input {
+  }
+
+  #search-button {
+
+  }
+
+#my-courses {
+    padding: 0;
+    list-style: none;
+    margin: 10px;
 }
 
-    #search-container p {
-        margin-right: 10px;
-    }
