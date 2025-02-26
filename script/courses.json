@@ -4,15 +4,36 @@
         {
             "year_level": "1st",
             "sem": "1st",
+            "code": "IT111",
+            "description": "Introduction to Computing",
+            "credit": "3.0"
+        },
+        {
+            "year_level": "1st",
+            "sem": "1st",
             "code": "IT112",
-            "description": "Computer Programming 1",
+            "description":"Computer Programming 1",
             "credit": "3.0"
         },
         {
             "year_level": "1st",
             "sem": "2nd",
-            "code": "IT113",
+            "code": "IT121",
             "description":"Computer Programming 2",
+            "credit": "3.0"
+        },
+        {
+            "year_level": "1st",
+            "sem": "2nd",
+            "code": "IT122",
+            "description":"Data Structures and Algorithms",
+            "credit": "3.0"
+        },
+        {
+            "year_level": "2nd",
+            "sem": "1nd",
+            "code": "IT214",
+            "description":"Object Oriented Programming",
             "credit": "3.0"
         }
     ]
